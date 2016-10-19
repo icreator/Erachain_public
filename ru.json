@@ -801,5 +801,9 @@
 	"Create or update keys in namestorage": "Создать или обновить ключ в хранилище имён",
 	"Max Amount": "Максимальное Количество",
 	"Amount (Optional/Default 20)": "Количество (Опционально/По умолчанию 20)",
+	"Vouch":"Заверить",
+	"Vouch Record":"Заверение",
+	"Information about the record":"Данные о записи",
+	"":"",
 	"":""
 }
