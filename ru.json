@@ -809,6 +809,8 @@
 	"Search Votings":"Поиск Опросов",
 	"Issue Voting":"Создать Опрос",
 	"Work with Votings":"Работа с Опросами",
-	"":"",
+	"DashBoard":"Обзор"	
+	"Network DashBoard":"Обзор Среды"	
+	"Network Port":"Порт Сети",
 	"":""
 }
