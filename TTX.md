@@ -40,6 +40,5 @@ http://54.194.119.240:9047/index/blockexplorer.html?top=allnotzero&asset=1
 ## Теоретическая пропускная способность
 87 записей в секунду
 
-Ссылки:
-
+## Ссылки:
 1. Программа старта "10 тыссяч Звёзд" http://datachains.world/star_a/index
