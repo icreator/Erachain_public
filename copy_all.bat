@@ -1,8 +1,4 @@
-
-
-::FOR %%f IN ("ARONICLE/ERM/src/*) DO TYPE %%f>>aronicle_list.txt
-
-::@echo off
+@echo off
 ::¬ключение отложенного расширени€ переменных среды
 ::позвол€ет использовать результаты изменени€ переменных внутри цикла, заключа€ их в воскл. знак (!)
 setlocal EnableDelayedExpansion
@@ -22,6 +18,7 @@ set /a rf=1
 for /f "delims=" %%i in ('dir "%$srcDir%\%$mask%" /s /b /a:-d') do (
   rem —брасываем счетчик кол-ва строк
   set /a r=1
+  @echo !rf! %%i
   echo.  >>"%$out%
   echo.-----------------%%i-------------->>"%$out%
     for /f "usebackq delims=" %%a in ("%%i") do (
