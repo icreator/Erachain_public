@@ -1,0 +1,34 @@
+
+
+::FOR %%f IN ("ARONICLE/ERM/src/*) DO TYPE %%f>>aronicle_list.txt
+
+::@echo off
+::Включение отложенного расширения переменных среды
+::позволяет использовать результаты изменения переменных внутри цикла, заключая их в воскл. знак (!)
+setlocal EnableDelayedExpansion
+::Задаем результирующий файл
+set $out=C:\Users\adm\git\out.txt
+::Задаем размещение исходной папки
+set $srcDir=C:\Users\adm\git\ARONICLE\ERM\src
+::Маска поиска файлов
+set $mask=*.java
+
+::Если файл уже есть - удаляем
+if exist "%$out%" del /f /q "%$out%"
+
+set /a rf=1
+ 
+::Выводим список файлов согласно указанной маске и делаем проход циклом по каждому найденному
+for /f "delims=" %%i in ('dir "%$srcDir%\%$mask%" /s /b /a:-d') do (
+  rem Сбрасываем счетчик кол-ва строк
+  set /a r=1
+  echo.  >>"%$out%
+  echo.-----------------%%i-------------->>"%$out%
+    for /f "usebackq delims=" %%a in ("%%i") do (
+      rem Выводим состояние счетчика, пробел и строку, перенаправляя поток во внешний файл
+      echo.!rf!.!r! %%a>>"%$out%
+      rem  Добавляем 1
+      set /a r+=1
+      set /a rf+=1
+    )
+)
