@@ -1,4 +1,6 @@
 # public package
+
+LIB ge_p3:
 `
 package org.whispersystems.curve25519.java;
 
