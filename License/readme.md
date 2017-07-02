@@ -1,5 +1,6 @@
+## License for legatimate blockchain Erachain
 
-
-License for legal blockchain ERA\
-
-https://github.com/icreator/ERMbase_public/blob/master/License/1.05.md
+#### Last version 1.06
+ENG:  
+CN:   
+RUS: https://github.com/icreator/ERMbase_public/blob/master/License/1.06.md  
