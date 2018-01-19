@@ -1,7 +1,7 @@
 ## Заявление
 
 Я, а также подписавшие данное заявление лица, подтверждаю что обладаю секретными ключами от следующих счетов:  
-> 1. 74a73pykkNwmuwkZdh5Lt2xTbK7anG5B6i  
+>1. 74a73pykkNwmuwkZdh5Lt2xTbK7anG5B6i
 2. 7QTDHp15vcHN3F4zP2BTcDXJkeotzQZkG4  
 3. 7FiXN8VTgjMsLrZUQY9ZBFNfek7SsDP6Uc  
 4. 74QcLxHgPkuMSPsKTh7zGpJsd5aAxpWpFA  
