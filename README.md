@@ -1,4 +1,4 @@
-# First legatimale blockchain platform Erachain
+# First legitimate blockchain platform Erachain
 #### public repository
 
 ### Документация по работе с полной нодой erachain
