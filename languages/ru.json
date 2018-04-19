@@ -1,7 +1,7 @@
 {
 	"_lang_ISO_":"ru",
 	"_lang_name_":"Русский",
-	"_timestamp_of_translation_": "1496804561001",
+	"_timestamp_of_translation_": "1496804661001",
 	" ( * optional field )":" ( * дополнительное поле )",
 	" and start the application again.":" и запустите приложение снова.",
 	"( DO NOT USE your wallet's password. )":"( Не используйте Ваш пароль кошелька! )",
@@ -257,6 +257,8 @@
 	"Favorite Assets":"Избранные Активы",
 	"Favorite Documents":"Избранные Документы",
 	"Favorite Persons":"Избранные Персоны",
+	"Favorite Unique Hashes":"Избранные Единичные Хэши",
+	
 	"Fee":"Сбор",
 	"Fee below the minimum for this size of a transaction!":"Сбор ниже минимального для такого размера сделки!",
 	"fee less required":"Сбор меньше чем требуется",
@@ -324,6 +326,7 @@
 	"insert next Public Key":"Введите следующий открытый ключ",
 	"Insert Person":"Вставить Персону",
 	"Insert Public Key":"Введите открытый ключ",
+	"Insert Quantity":"Введите количество",
 	"insert second Public Key":"Введите второй открытый ключ",
 	"integer":"целое",
 	"Invalid Account!":"Недопустимый Счёт!",
@@ -385,6 +388,9 @@
 	"Issue Statement":"Создать Заявление",
 	"Issue Template":"Создать Шаблон",
 	"Issue Union":"Создать Объединение",
+	"Issue Unique Hash":"Создать Единичный Хэш",
+	"Issue Linked Hashes":"Создать Привязанный Хэш",
+	
 	"Imprint issue has been sent!":"Выпуск Отпечатка заявлен!",
 	"I Owner":"Я Собственник",
 	
@@ -443,6 +449,7 @@
 	"My Transactions":"Мои Транзакции",
 	"My Votes":"Мои Голоса",
 	"My Unions":"Мои Объединения",
+	"My Unique Hashes":"Мои Единичные Хэши",
 	"name already exists":"Имя уже существует",
 	"name already for sale":"имя уже для продажи",
 	"Name Details":"Детали Имени",
@@ -523,6 +530,7 @@
 	"Peers loaded from Internet with errors : ": "Пиров загружено из Интернета с ошибками : ",
 	"Period":"Период",
 	"Permission Request: ":"Запрос Разрешений:  ",
+	"Person":"Персона",
 	"Persons":"Персоны",
 	"Person confirm":"Подтверждение Персоны",
 	"Person number":"Номер СНИЛС",
@@ -581,6 +589,7 @@
 	"Response ACCT":"Ответчик АССТ",
 	"restoring backup database":"восстановление резервной копии базы данных",
 	"Retype password:":"Повторите пароль:",
+	"Roll back Blocks":"Откатить Блоки",
 	"RPC enabled":"RPC включён",
 	"Rpc port %port% already in use!":"Rpc порт %port% уже используется!",
 	"RPC port:":"RPC порт",
@@ -596,13 +605,17 @@
 	"Search Documents":"Поиск Документа",
 	"Search Document Hash in BloskChain":"Поиск Хэш Документа в Блокчейн",
 	"Search Imprints":"Поиск Отпечатка",
+	"Search no results":"Не найдено",
 	"Search Hash":"Найти Хэш",
 	"Search Persons":"Поиск Персоны",
 	"Search Records":"Поиск Записи",
+	"Search results":"Результат поиска",
 	"Search Statements":"Поиск Заявления",
 	"Search Statuses":"Поиск Статуса",
 	"Search Templates":"Поиск шаблона",
 	"Search Unions":"Поиск Объединения",
+	"Search Unique Hashes":"Поиск Единичные Хэши",
+	"Search Linked Hashes":"Найти Привязанный Хэш",
 	"Select pair":"Выбрать пару",
 	"Select Template":"Выберите Шаблон",
 	"Select Account":"Выберите Счет",
@@ -656,6 +669,7 @@
 	"Stopping message processor":"Остановка обработчика сообщений",
 	"string":"строка",
 	"Success":"Успех",
+	"Sync Wallet":"Синхронизировать Кошелёк",
 	"Synchronizing":"Синхронизация",
 	"System Theme":"Тема Системы",
 	"Tags length exceeded!":"",
@@ -955,5 +969,7 @@
 	"DashBoard":"Обзор"	
 	"Network DashBoard":"Обзор Среды"	
 	"Network Port":"Порт Сети",
+	"Unique Hash":"Единичные Хэши",
+	"Linked Hash":"Привязанные Хэши",
 	"":""
 }
