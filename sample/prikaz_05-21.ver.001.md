@@ -23,3 +23,5 @@ V5RkNcBrDi88Tbkm71DN1Po7M7yEop9kpu95gxHjPvR7MDa3uMkYotvGJ8awRTmz2abBEGXShZptrVdz
 + ORDER =  номер приказа
 + UNION = юридическое лицо (Наименование, ОГРН или ИНН)
 + VALUE = количество правовых единиц COMPU
++ SYSADM = администратор
++ DOMEN = 
